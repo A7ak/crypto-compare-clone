@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Crypto Compare Clone</string>
+    <string name="title_watchlist">Watchlist</string>
+    <string name="title_portfolio">Portfolio</string>
+    <string name="title_news">News</string>
+    <string name="terms_amp_conditions"><u>Terms Conditions</u></string>
+    <string name="policy"><u>Policy</u></string>
+    <string name="log_out">Log out</string>
+</resources>

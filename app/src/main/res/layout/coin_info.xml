@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:text="1"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/coin_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/ic_launcher_background" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/bitcoin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bitcoin"
+            android:textColor="@color/default_black_color"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bitcoin"
+            android:text="BTC"
+            android:textColor="@color/default_black_color" />
+
+        <TextView
+            android:id="@+id/currency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/total_volume"
+            android:text="$"
+            android:textAlignment="viewEnd"
+            android:textColor="@color/default_black_color"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/total_volume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text=" 3,781.84 M"
+            android:textColor="@color/default_black_color"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/total_volume"
+            android:layout_toStartOf="@id/indicator_profit_loss"
+            android:text="$ 8690.05"
+            android:textColor="@color/default_black_color" />
+
+        <ImageView
+            android:id="@+id/indicator_profit_loss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/total_volume"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/profit_indicator_arrow" />
+    </RelativeLayout>
+
+</LinearLayout>

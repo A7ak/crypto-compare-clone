@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+<<<<<<< HEAD
+    <color name="following_onclick_green_color">#49D87C</color>
+    <color name="default_white_color">#FFFFFF</color>
+    <color name="default_black_color">#050505</color>
+||||||| 7a5bff4
+=======
+    <color name="statusBarColor">#00FFFFFF</color>
+>>>>>>> acd08599cef6d1239bd254fc2cb870d3059a7bc4
+</resources>
